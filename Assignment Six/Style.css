@@ -1,0 +1,72 @@
+    body{
+        padding-left: 30px;
+    }
+    h1,span{
+        display: inline-block;
+        margin: 30px;
+    }
+    select,button{
+        padding: 5px;
+        margin: 35px;
+        cursor: pointer;
+    }
+    h1{
+        font-family: monospace;
+        font-size: 20px;
+        font-style: italic;
+        color: rgb(17, 161, 17);
+    }
+    input:hover{
+        background-color: rgb(58, 195, 72);
+    }
+    .none{
+        background-color: white;
+        border: none;
+    }
+    .radius{
+        font-size: large;
+        border: none;
+        font-family: 'Times New Roman', Times, serif;
+        border-radius: 8px;
+        color: white;
+        background-color: rgb(17, 161, 17);
+        height: 45px;
+        margin-top: -20px;
+    }
+    .center{
+        font-size: 25px;
+        text-align: left;
+    }
+    a:hover{
+        color: black;
+    }
+    .size{
+        font-size: 18px;
+    }
+    .size2{
+        color:  rgb(17, 161, 17);
+        font-size: 50px;
+    }
+    .size3{
+        color: rgb(85, 83, 83);
+        font-size: 30px;
+    }
+    #hi{
+        color:  rgb(17, 161, 17);
+    }
+    p{
+        font-size: 20px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    .background{
+        background-color: rgb(219, 215, 215);
+    }
+    .height{
+        width: 1300px;
+    }
+    .size4{
+        height: 50px;
+        font-size: 25px;
+    }
