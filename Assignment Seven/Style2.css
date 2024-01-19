@@ -1,0 +1,46 @@
+    body{
+        background-color: silver;
+    }
+    div{
+        margin-left: 160px;
+        vertical-align: middle;
+        display: inline-block;
+    }
+    h1{
+        font-family: system-ui, sans-serif;
+        color: rgb(55, 55, 220);
+    }
+    .design{
+        background-color: white;
+        margin: 100px;
+        border: silver;
+        cursor: pointer;
+        height: 230px;
+        width: 250px;
+        border-style: groove;
+    }
+    button:hover{
+        background-color: rgb(84, 84, 205)
+    }
+    .button{
+        background-color: rgb(55, 55, 220);
+        color: white;
+        border: none;
+        width: 190px;
+    }
+    .button1{
+        color: blue;
+        border: none;
+        width: 190px;
+    }
+    .button2{
+        border: none;
+        background-color: rgb(39, 172, 39);
+        color: white;
+        height: 30px;
+        width: 140px;
+        border-radius: 12px;
+    }
+    .none{
+        border: none;
+    }
