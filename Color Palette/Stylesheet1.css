@@ -1,3 +1,7 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
     img{
         position: absolute;
         height: 630px;
@@ -5,9 +9,9 @@
     }
     .child-first{
         font-size: 25px;
-        color: rgb(222, 117, 51);
+        color: #358bdc;
         position: absolute;
-        top: 0;
+        top: 30px;
         left: 480px;
     }
     .container{

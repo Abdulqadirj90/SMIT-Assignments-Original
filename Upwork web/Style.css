@@ -3,18 +3,21 @@
         }
         h1,span{
             display: inline-block;
-            margin: 20px;
         }
-        h1{
+        .h1{
             font-family: monospace;
             font-size: 30px;
             font-style: italic;
             color: rgb(17, 161, 17); 
         }
-        select,span{
+        .child-span{
             font-size: 18px;
-            padding: 5px;
-            margin: 40px;
+            padding: 0;
+            margin: 38px;
+        }
+        select,span{
+            padding: 0;
+            margin: 35px;
         }
         input:hover,a:hover{
             background-color: rgb(58, 195, 72);
@@ -24,8 +27,11 @@
         .size{
             font-size: 20px;
         }
+        a{
+            margin-right: 35px;
+        }
         .width{
-            width: 1350px;
+            width: 1250px;
         }
         .size2{
             color:  rgb(17, 161, 17);
@@ -45,18 +51,18 @@
             height: 40px;
         }
         h2{
-            font-size: 35px;
-        }
-        #hi{
-            color:  rgb(17, 161, 17);
-            font-size: 22px;
+            font-size: 30px;
         }
         p{
             font-size: 25px;
         }
+        #hi{
+            color:  rgb(17, 161, 17);
+            font-size: 20px;
+        }
         .table{
             background-color: rgb(219, 215, 215);
-            width: 1300px;
+            width: 1200px;
         }
         .size4{
             height: 60px;
@@ -65,10 +71,10 @@
         .size4 td img{
             width: 25px;
         }
-        .sticky{
-            position: sticky;
-            top: 10px;
+        .Position{
+            position: fixed;
+            top: 550px;
             right: 0px;
-            left: 100px;
+            left: 1250px;
             bottom: 0px;
         }

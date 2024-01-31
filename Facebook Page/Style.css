@@ -2,43 +2,52 @@
         background-color: silver;
     }
     div{
-        margin-left: 160px;
+        margin-left: 280px;
         vertical-align: middle;
         display: inline-block;
     }
     h1{
+        font-size: 50px;
         font-family: system-ui, sans-serif;
         color: rgb(55, 55, 220);
+    }
+    p{
+        font-size: 30px;
     }
     .design{
         box-shadow: 0px 0px 8px 6px rgb(144, 167, 163);
         background-color: white;
-        margin: 100px;
+        margin: 150px;
+        margin-left: 50px;
         border: silver;
-        height: 230px;
-        width: 250px;
+        height: 330px;
+        width: 360px;
         border-style: groove;
+    }
+    input{
+        margin: 15px;
+        font-size: 18px;
     }
     .input{
         cursor: pointer;
         background-color: rgb(55, 55, 220);
         color: white;
-        height: 30px;
-        width: 200px;
+        height: 40px;
+        width: 310px;
     }
     .input1{
         cursor: pointer;
         border: none;
         background-color: white;
-        width: 200px;
+        width: 210px;
     }
     .input2{
         cursor: pointer;
         border: none;
-        border-radius: 8px;
+        border-radius: 15px;
         background-color: rgb(43, 240, 43);
-        height: 25px;
-        width: 140px;
+        height: 40px;
+        width: 180px;
     }
     .input1:hover{
         background-color: rgb(219, 215, 215);
