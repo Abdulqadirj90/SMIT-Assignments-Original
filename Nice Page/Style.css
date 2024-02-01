@@ -1,0 +1,86 @@
+    body{
+        margin: 0;
+        padding: 0;
+        background-image: linear-gradient( rgb(193, 75, 229), rgb(20, 216, 147));
+    }
+    h1{
+        color: white;
+        font-size: 40px;
+        text-align: center;
+        margin-top: 10px auto;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    p{
+        color: white;
+        font-size: 20px;
+        text-align: center;
+    }
+    .container1{
+        margin: auto;
+        width: 950px;
+        height: 450px;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+    .parent-1st3rd{
+        color: white;
+        font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+        background-image: linear-gradient(to left, rgb(221, 149, 85), rgb(45, 225, 195));
+        height: 400px;
+        width: 300px;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .parent-2nd{
+        color: white;
+        font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+        background-image: linear-gradient(to bottom, rgb(64, 238, 238), rgb(187, 43, 132));
+        height: 400px;
+        width: 300px;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    span >input{
+        height: 40px;
+        width: 110px;
+        border: none;
+        cursor: pointer;
+        margin-top: 30px;
+        font-weight: bolder;
+        border-radius: 12px;
+    }
+    input:hover{
+        background-color: rgb(220, 84, 232);
+    }
+    .parah1{
+        font-size: 25px;
+        font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+    }
+    .parah2{
+        font-size: 70px;
+        font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+    }
+    hr{
+        width: 200px;
+        border: 2px solid white;
+    }
+    .container2{
+        height: 70px;
+        color: white;
+        background-color: black;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+    p >span{
+        font-size: 30px;
+    }
