@@ -20,12 +20,12 @@
         margin: 150px;
         margin-left: 50px;
         border: silver;
-        height: 330px;
+        height: 350px;
         width: 360px;
         border-style: groove;
     }
     input{
-        margin: 15px;
+        margin-top: 30px;
         font-size: 18px;
     }
     .input{
