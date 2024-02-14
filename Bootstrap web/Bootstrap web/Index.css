@@ -11,8 +11,8 @@
     .header {
         position: sticky;
         top: 0;
-        background-color: white;
         padding: 5px 70px;
+        background-color: white;
     }
     .navbar {
         color: #212529;
@@ -74,14 +74,14 @@
         margin: 60px 10px;
         font-size: 0.85rem;
         text-align: center;
-        font-family: "Aldrich", sans-serif;
         display: flex;
         align-items: center;
         justify-content: center;
+        font-family: "Aldrich", sans-serif;
     }
     .filter ul li {
-        padding: 5px;
-        font-size: 1.15rem;
+        padding: 8px 0;
+        font-size: 1.05rem;
         display: inline-block;
     }
     .filter ul li a {
@@ -94,12 +94,11 @@
         background-color: lightgrey;
     }
     .image-container {
+        gap: 10px;
         margin: 10px;
-        padding: 10px;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
-        gap: 10px;
         /* background-color: black; */
     }
     .image-box {
@@ -116,9 +115,25 @@
     }
     .foot-panel {
         color: white;
-        height: 50px;
+        height: 80px;
+        font-size: 1.15rem;
         display: flex;
         align-items: center;
         justify-content: space-around;
         background-color: #212529;
+    }
+    .foot-panel p {
+        color: #B7B7B7;
+    }
+    .foot-panel p span {
+        color: white;
+    }
+    #copyright:hover {
+        cursor: pointer;
+        border-radius: 5px;
+        color: rgb(16, 118, 24);
+        background-color: rgb(131, 232, 131);
+    }
+    .foot-panel p {
+        margin: 20px 0;
     }
