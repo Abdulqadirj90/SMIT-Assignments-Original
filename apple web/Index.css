@@ -13,8 +13,8 @@
     }
     .nav-links ul {
         width: 80%;
-        padding: 14px;
-        margin: 0 110px 80px;
+        padding: 10px;
+        margin: 0 140px;
         list-style: none;
         display: flex;
         text-align: center;
@@ -29,13 +29,18 @@
         text-decoration: none;
         color: rgb(159, 156, 154);
     }
+    .nav-icons span {
+        padding: 10px;
+    }
     /* first-box */
     .box-first {
         width: 100%;
         height: 600px;
         color: white;
         background-size: cover;
-        background-image: url(hero\ -img1.jpeg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-image: url(hero-img1.jpg);
     }
     .text-box1 {
         padding: 40px 0;
@@ -107,24 +112,34 @@
     }
     .image-container {
         width: 100%;
+        padding: 10px;
         display: flex;
         text-align: center;
         align-items: center;
     }
+    .text-decoration a {
+        text-decoration: none;
+    }
     .image-box1 {
+        gap: 10px;
+        flex-grow: 1;
         height: 500px;
-        font-weight: 400;
+        font-weight: 500;
         font-size: 1.55rem;
         background-size: cover;
+        background-position: center;
         background-repeat: no-repeat;
         background-image: url(box-img1.jpeg);
     }
     .image-box2 {
+        gap: 10px;
+        flex-grow: 1;
         height: 500px;
         color: white;
         font-weight: 400;
         font-size: 1.55rem;
         background-size: cover;
+        background-position: center;
         background-repeat: no-repeat;
         background-image: url(box-img2.jpeg);
     }
@@ -132,18 +147,47 @@
         color: red;
     }
     .image-box3 {
+        gap: 10px;
+        flex-grow: 1;
         height: 500px;
+        color: white;
         font-weight: 400;
         font-size: 1.55rem;
         background-size: cover;
+        background-position: center;
         background-repeat: no-repeat;
-        background-image: url(box-img3.jpeg);
+        background-image: url(box-img3.jpg);
     }
     .image-box4 {
+        gap: 10px;
+        flex-grow: 1;
         height: 500px;
         font-weight: 400;
         font-size: 1.55rem;
         background-size: cover;
+        background-position: center;
         background-repeat: no-repeat;
-        background-image: url(box-img4.jpeg);
+        background-image: url(box-img4.jpg);
+    }
+    .image-box5 {
+        gap: 10px;
+        flex-grow: 1;
+        height: 500px;
+        font-weight: 400;
+        font-size: 1.55rem;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-image: url(box-img5.jpg);
+    }
+    .image-box6 {
+        gap: 10px;
+        flex-grow: 1;
+        height: 500px;
+        font-weight: 400;
+        font-size: 1.55rem;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-image: url(box-img6.jpg);
     }
