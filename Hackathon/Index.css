@@ -1,0 +1,66 @@
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Source Sans Pro' !important;
+    }
+    .header {
+        list-style: none;
+    }
+    .nav-items {
+        font-size: 1.15rem;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+        font-family: 'Source Sans Pro' !important;
+    }
+    .nav-links {
+        margin: 0 0 0 400px;
+    }
+    .nav-links a {
+        color: #333;
+        text-decoration: none;
+    }
+    .nav-items ul li {
+        display: inline-block;
+    }
+    .button-first {
+        border-radius: 5px;
+        border: none;
+        color: white;
+        height: 1.99rem;
+        background-color: #46b749;
+    }
+    .button-second {
+        border-radius: 5px;
+        border: none;
+        color: white;
+        height: 1.99rem;
+        background-color: #337ab7;
+    }
+    .button-third {
+        border-radius: 5px;
+        border: none;
+        color: white;
+        height: 1.99rem;
+        background-color: #333;
+    }
+    .first-container {
+        width: 100%;
+        height: 500px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-image: url(https://s.rozee.pk/v6/i/banner_bg.webp);
+    }
+    .first-child {
+        height: 50px;
+        background-repeat: no-repeat;
+        background-image: url(hero-img2.svg);
+    }
+    .first-child ul {
+        padding: 120px;
+    }
+    .search-button {
+        padding: 0 90px;
+    }
