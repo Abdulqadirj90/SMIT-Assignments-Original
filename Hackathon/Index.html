@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Document</title>
+    <title>Rozee</title>
     <link rel="stylesheet" href="Index.css" />
     <script
       src="https://kit.fontawesome.com/ef2a981377.js"
@@ -17,30 +17,76 @@
   <body>
     <header class="header">
       <div class="nav-items">
-        <ul>
+        <ul class="nav-links">
+          <li style="color: red">
+            <img
+              src="complaint_comp.svg"
+              alt="reported image"
+              height="20px"
+            /><br />Beware Reported Companies
+          </li>
           <li>
-            <img src="nav-logo.svg" alt="nav-image" />
+            <img src="nav-review.png" alt="cv-image" /><br />Free CV Review
+          </li>
+          <li>
+            <img
+              src="nav-download.gif"
+              alt="mobile-image"
+              height="25px"
+            /><br />Mobile
+          </li>
+          <li>
+            <img
+              src="https://cdn3.iconfinder.com/data/icons/wpzoom-developer-icon-set/500/104-512.png"
+              alt="key-image"
+              height="20px"
+            /><br />Login
+          </li>
+          <li>
+            <img
+              src="https://cdn.iconscout.com/icon/premium/png-256-thumb/sign-up-4621286-3841288.png"
+              alt="signup-image"
+              height="20px"
+            /><br />Signup
+          </li>
+          <li>
+            <img
+              src="https://cdn-icons-png.freepik.com/512/8462/8462231.png"
+              alt="language-image"
+              height="20px"
+            /><br />
+            <select class="selector">
+              <option>English</option>
+              <option>Urdu</option>
+              <option>English</option>
+            </select>
           </li>
         </ul>
-        <ul class="nav-links">
-          <li><a href="#">icons</a><br />Reported Companies</li>
-          <li><img src="nav-review.png" /><br />Free CV Review</li>
-          <li><a href="#">icons</a><br />Mobile</li>
-          <li><a href="#">icons</a><br />Login</li>
-          <li><a href="#">icons</a><br />Signup</li>
-          <li><a href="#">icons</a><br />English</li>
+        <ul class="nav-btn">
+          <li>
+            <button
+              type="button"
+              value="POST A JOB"
+              class="btn-decoration button-first"
+            >
+              POST A JOB
+            </button>
+            <button
+              type="button"
+              value="Hire a Freelancer"
+              class="btn-decoration button-second"
+            >
+              Hire a Freelancer
+            </button>
+            <button
+              type="button"
+              value="Employers"
+              class="btn-decoration button-third"
+            >
+              Employers
+            </button>
+          </li>
         </ul>
-        <li class="nav-btn">
-          <button type="button" value="Employers" class="button-first">
-            Employers
-          </button>
-          <button type="button" value="POST A JOB" class="button-second">
-            POST A JOB
-          </button>
-          <button type="button" value="Hire a Freelancer" class="button-third">
-            Hire a Freelancer
-          </button>
-        </li>
       </div>
     </header>
     <div class="first-container">
@@ -54,20 +100,20 @@
                 placeholder="Job Title, Skill or Company"
                 aria-label="Recipient's username"
                 aria-describedby="button-addon2"
+                size="70px"
               />
               <button
-                class="btn btn-outline-secondary"
+                class="btn-outline-secondary"
                 type="button"
                 id="button-addon2"
               >
-                Button
+                Search
               </button>
             </div>
           </li>
         </ul>
       </div>
     </div>
-
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
       integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
