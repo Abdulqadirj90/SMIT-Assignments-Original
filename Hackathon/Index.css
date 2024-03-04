@@ -4,63 +4,75 @@
         font-family: 'Source Sans Pro' !important;
     }
     .header {
+        height: 50px;
         list-style: none;
+        background-repeat: no-repeat;
+        background-image: url(nav-logo.svg);
     }
     .nav-items {
-        font-size: 1.15rem;
         display: flex;
-        flex-wrap: wrap;
+        text-align: center;
         align-items: center;
-        justify-content: space-evenly;
+        justify-content: flex-end;
+        font-size: 0.85rem;
         font-family: 'Source Sans Pro' !important;
-    }
-    .nav-links {
-        margin: 0 0 0 400px;
     }
     .nav-links a {
         color: #333;
         text-decoration: none;
     }
     .nav-items ul li {
+        margin: 0 3px 0;
         display: inline-block;
     }
-    .button-first {
-        border-radius: 5px;
+    .selector {
+        border: none;
+    }
+    .btn-decoration {
         border: none;
         color: white;
-        height: 1.99rem;
+        height: 2.25rem;
+        font-size: 1.05rem;
+        border-radius: 5px;
+    }
+    .button-first {
+        width: 100px;
         background-color: #46b749;
     }
     .button-second {
-        border-radius: 5px;
-        border: none;
-        color: white;
-        height: 1.99rem;
+        width: 140px;
         background-color: #337ab7;
     }
     .button-third {
-        border-radius: 5px;
-        border: none;
-        color: white;
-        height: 1.99rem;
-        background-color: #333;
+        width: 100px;
+        background-color: #23315f;
+    }
+    .button-third:hover {
+        background-color: #337ab7;
     }
     .first-container {
         width: 100%;
-        height: 500px;
+        height: 450px;
         display: flex;
-        align-items: center;
+        text-align: center;
         justify-content: center;
         background-image: url(https://s.rozee.pk/v6/i/banner_bg.webp);
     }
     .first-child {
-        height: 50px;
+        height: 60px;
+        margin: 60px 0;
+        background-position: center;
         background-repeat: no-repeat;
-        background-image: url(hero-img2.svg);
+        background-image: url(hero-img1.svg);
     }
     .first-child ul {
-        padding: 120px;
+        padding: 80px 0;
     }
-    .search-button {
-        padding: 0 90px;
+    .input-group input {
+        border-radius: 0;
+    }
+    .btn-outline-secondary {
+        border: none;
+        width: 120px;
+        background-color: #337ab7;
     }

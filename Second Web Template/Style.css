@@ -17,6 +17,53 @@
         transform: translateX(-250px);
         background-color: rgb(17, 48, 184);
     }
+    header {
+        display: flex;
+        flex-direction: column;
+        /* padding: 15px; */
+        color: white;
+    }
+    .upper-header {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 10px;
+        background-color: #F2F2F2;
+        color: black;
+    }
+    .nicepage {
+        /* width: 20%; */
+        display: flex;
+        justify-content: center;
+        font-size: 1.4em;
+    }
+    .nicepage-n {
+        background-color: blue;
+        color: white;
+    }
+    .icons {
+        width: 60%;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        gap: 60px;
+        font-size: 1.4em;
+    }
+    .lower-header {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 10px;
+        background-color: white;
+        
+    }
+    .lower-heading h2 {
+        font-size: 2.9em;
+        font-weight: 900;
+        color: #BBBBBB;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
     .navbar {
         height: 120px;
         width: 100%;
@@ -26,27 +73,26 @@
         height: 20px;
         font-size: 30px;
         color: #333;
+        margin-left: 10px;
     }
     .navbar p a {
         font-size: 40px;
         font-weight: bold;
         background-color: rgb(21, 89, 156);
         border-top-right-radius: 10px;
-        margin-left: 10px;
     }
     .navbar p i {
         margin-left: 200px;
     }
-    h2 {
-        font-family: 'Times New Roman', Times, serif;
+    /* h2 { */
+        /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-weight: 900;
         font-size: 2.85rem;
-        color: silver;
-        position: absolute;
+        color: rgb(241, 241, 241); */
+        /* position: absolute;
         top: 40px;
-        left: 150px;
-        background-color: white;
-    }
+        left: 150px; */
+    /* } */
     .container .sidebar {
         text-align: center;
         color: white;
@@ -92,30 +138,28 @@
         display: none;
     }
     #menu-btn {
-        position: fixed;
-        right: -60px;
-        top: 50px;
         font-size: 30px;
         border-radius: 3px;
         color: white;
-        padding: 1px 6px;
+        padding: 1px 6px;   
         cursor: pointer;
-        background-color: rgb(26, 26, 189);
+        /* background-color: rgb(26, 26, 189); */
     }
     #button {
-        background-color: rgb(32, 56, 178);
+        /* background-color: rgb(32, 56, 178); */
+        background-color: black;
     }
     #check:checked ~.container{
         transform: translateX(0);
     }
     .box1 {
-        height: 200%;
+        height: 1100px;
         width: 45%;
+        min-width: 200px;
         position: absolute;
-        top: 120px;
-        left: 650px;
+        top: 200px;
+        left: 50%;
         background-color: rgb(156, 156, 156);
-        display: flex;
     }
     .box2 img {
         position: relative;
@@ -126,28 +170,32 @@
         display: flex;
     }
     .imagebox-container {
-        width: 100%;
+        width: 72%;
         /* border: 2px solid black; */
+        position: relative;
+        left: 6%;
         display: flex;
-        justify-content: start;
+        flex-wrap: wrap;
+        /* justify-content: start; */
     }
     .image-box {
         z-index: 1;
-        margin-left: 20px;
+        padding: 0 3px;
+        min-width: 200px;
         position: relative;
-        left: 70px;
+        top: 5px;
     }
     #box3 {
         height: 30px;
         width: 200px;
         font-size: 20px;
         margin-top: 20px;
-        margin-left: 80px;
+        margin-left: 5%;
         text-align: center;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         /* border: 2px solid black; */
     }
-    a:hover {
+    .box3 a:hover {
         color: #333;
         border: 2px solid #333;
         text-decoration: underline;
@@ -169,4 +217,15 @@
     }
     .foot-panel p a {
         color: rgb(73, 73, 189);
+    }
+    @media only screen and (max-width: 990px) {
+        .imagebox-container {
+            justify-content: center;
+        }
+        .image-box {
+            /* justify-content: center;
+            gap: 10px; */
+            margin-right: none;
+            min-width: 380px;
+        }
     }
