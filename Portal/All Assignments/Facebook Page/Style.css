@@ -1,0 +1,64 @@
+    body{
+        margin: 0;
+        padding: 0;
+        background-image: linear-gradient(to top, black, white);
+    }
+    div{
+        margin-left: 280px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    h1{
+        font-size: 50px;
+        color: rgb(55, 55, 220);
+        font-family: system-ui, sans-serif;
+    }
+    p{
+        font-size: 30px;
+    }
+    .design{
+        width: 380px;
+        height: 350px;
+        margin: 150px;
+        margin-left: 50px;
+        border-radius: 25px;
+        box-shadow: 0px 5px 10px 5px rgb(144, 167, 163);
+        background-image: linear-gradient(rgb(78, 77, 77),rgb(180, 179, 179));
+    }
+    input{
+        margin-top: 30px;
+        font-size: 18px;
+    }
+    .input{
+        height: 40px;
+        width: 310px;
+        border: none;
+        color: white;
+        cursor: pointer;
+        background-image: linear-gradient(rgb(161, 176, 232),rgb(58, 58, 200));
+    }
+    .input1{
+        width: 210px;
+        border: none;
+        cursor: pointer;
+        background-color: transparent;
+    }
+    .input2{
+        height: 40px;
+        width: 180px;
+        border: none;
+        cursor: pointer;
+        border-radius: 10px;
+        background-color: rgb(43, 240, 43);
+    }
+    .input1:hover{
+        border-radius: 10px;
+        background-color: rgb(219, 215, 215);
+    }
+    .input:hover{
+        background-image: linear-gradient(rgb(184, 186, 248),rgb(24, 24, 224));
+    }
+    .input2:hover{
+        color: white;
+        background-color:  rgb(20, 197, 20);
+    }
