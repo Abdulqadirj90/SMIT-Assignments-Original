@@ -64,10 +64,10 @@ span {
   font-weight: 600;
 }
 .first-parah {
-  font-size: 1.8rem;
+  font-size: 1.7rem;
 }
 .second-parah {
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   color: #6e6e73;
 }
 .text-decoration a {
@@ -113,11 +113,11 @@ span {
 .second-section {
   width: 100%;
   display: flex;
+  gap: 10px;
   flex-direction: column;
 }
 .shoping-section {
   height: 550px;
-  margin: 15px 0;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -137,6 +137,7 @@ span {
   background-image: url(shop-4.jpg);
 }
 .shop-four span {
+  font-size: 1.3rem;
   color: #bb1515;
 }
 .shop-five {
